@@ -133,5 +133,28 @@ header {
       text-align: right;
     }
   }
+
+
+  @media only screen and (max-width: 768px) {
+  
+    .nav {
+      margin-top: 30px;
+      justify-content: center;
+    }
+  
+    .nav a {
+      display: block;
+      margin: 10px 0;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  
+  /* For screens with a minimum width of 1200px */
+  @media only screen and (min-width: 1200px) {
+    .nav a {
+      font-size: 20px;
+    }
+  }
  
   
