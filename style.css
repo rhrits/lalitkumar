@@ -186,4 +186,73 @@ header {
   }
 }
 
+
+/* Mobile Devices (Portrait) */
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul.show {
+    left: 0;
+  }
+  
+  nav ul li {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text h2 {
+    font-size: 28px;
+  }
+  
+  .text h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .photo {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+}
+
   
